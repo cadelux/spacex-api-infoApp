@@ -1,0 +1,52 @@
+.container-fluid{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.active{
+    background-color:rgb(249, 255, 214);
+    border-radius: 5px;  
+    
+}
+
+
+.nav-link{
+    text-decoration-line: none;
+    border: 7px solid transparent;
+}
+
+.log{
+    margin-left:  1300px;
+}
+.btn{
+    font-family: initial;
+    
+    background-color:rgb(55, 110, 162);
+    font-size: 19px;
+}
+
+@media screen and (max-width:1700px) {
+    .log{
+        margin-left:500px;
+    }
+}
+
+@media screen and (max-width:900px){
+    .log{
+        margin-left: 170px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .log{
+        margin :0px;
+    
+    }
+}
+
+@media screen and (max-width:575px){
+    .log{
+        margin-top :14px;
+    
+    }
+}

@@ -1,0 +1,9 @@
+.table{
+    background-color: azure;
+    text-align: center;
+}
+.details{
+    overflow-x: auto;
+    height: 70vh;
+    margin: 70px;
+}

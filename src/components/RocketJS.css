@@ -1,0 +1,58 @@
+html,body{
+    font-family: Helvetica;
+}
+/* .outlinenone:focus{
+    border: none;
+    outline: none;
+
+} */
+.one-rocket{
+width:  450px;
+display: flex;
+align-items:center;
+justify-content: baseline;
+margin: 14px;
+
+
+}
+
+.one-rocket:hover{
+    width:  450px;
+    display: flex;
+    align-items:center;
+}
+
+
+ /* @media only screen and (max-width:300px){
+    .one-rocket{
+      width: 33%;
+      height: 33%;
+    }
+    
+ } */
+
+.imh{
+    border: 1px solid #ffff;
+border-radius: 29px;
+box-shadow: 12px;
+transition: border-radius 1s;
+}
+.imh:hover{
+    border: 1px solid #ffff;
+border-radius: 45px;
+}
+.bodyrocket{
+    display: flex;
+    justify-content: center;
+}
+
+.desc{
+ 
+    overflow-y: auto;
+    height: 16vh;
+}
+
+.detailscard{
+    overflow-y: auto;
+    height: 16vh;
+}
